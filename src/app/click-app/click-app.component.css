@@ -1,0 +1,18 @@
+div {
+	width: 200px;
+	height: 20px;
+	border: 1px solid;
+	margin-top: 10px;
+	position: relative;
+}
+.doimau {
+	background-color: seagreen;
+}
+.kodoi {
+	background: red;
+}
+i {
+	position: absolute;
+	top: 2px;
+	left: 180px;
+}

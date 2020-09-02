@@ -1,0 +1,5 @@
+<input (keyup.enter)="todoList()" [(ngModel)]="value" type="text">
+<ul>
+  <app-click-app (delete)="deleteToDoList($event,i)" [todo]="todo" *ngFor="let todo of toDoList,let i = index">
+  </app-click-app>
+</ul>
